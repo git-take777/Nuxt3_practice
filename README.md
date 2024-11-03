@@ -73,3 +73,8 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## 備忘録
+
+- npm run dev して Nuxt が動かなかった際は、`npm install @nuxt/kit`して
+  `rm -rf node_modules npm install`して解決する
